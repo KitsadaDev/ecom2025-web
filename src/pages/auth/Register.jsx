@@ -48,7 +48,7 @@ const Register = () => {
     //   return;
     // }
     try {
-      const res = await axios.post("https://ecommerce-server-taupe.vercel.app/api/register", data);
+      const res = await axios.post("https://ecom2025-api-rouge.vercel.app/api/register", data);
       console.log(res.data);
       toast.success("Register successful!");
     } catch (err) {

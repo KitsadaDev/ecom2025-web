@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const payment = async (token) =>
   await axios.post(
-    "https://ecommerce-server-taupe.vercel.app/api/user/create-checkout-session",
+    "https://ecom2025-api-rouge.vercel.app/api/user/create-checkout-session",
     {},
     {
       headers: {
